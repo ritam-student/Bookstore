@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Login from "../pages/login";
 import Register from "../pages/register";
 import Cart from "../pages/cart";
+import Checkout from "../pages/checkout";
 
 
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
             {
                 path : "/cart",
                 element : <Cart/>
+            },
+            {
+                path: "/checkout",
+                element: <Checkout/>,
             }
         ]
     }
